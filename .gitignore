@@ -1,3 +1,65 @@
+<<<<<<< HEAD
+=======
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# interpreter
+/interpreter/
+
+# interpreter temp files
+spark/derby.log
+spark/metastore_db
+spark-1.*-bin-hadoop*
+zeppelin-server/derby.log
+
+lens/lens-cli-hist.log
+
+# conf file
+conf/zeppelin-env.sh
+conf/zeppelin-env.cmd
+conf/zeppelin-site.xml
+conf/keystore
+conf/truststore
+conf/interpreter.json
+conf/notebook-authorization.json
+
+# other generated files
+spark/dependency-reduced-pom.xml
+reports
+
+#webapp
+zeppelin-web/node_modules
+zeppelin-web/dist
+zeppelin-web/.tmp
+zeppelin-web/.sass-cache
+zeppelin-web/bower_components
+**nbproject/
+**node/
+
+
+# project level
+/logs/
+/run/
+/metastore_db/
+/*.log
+/jobs/
+/zan-repo/
+/drivers/
+/warehouse/
+/notebook/
+/local-repo/
+
+**/sessions/
+**/data/
+**/build/
+**/testing/
+!/testing/
+
+>>>>>>> refs/remotes/apache/master
 # OS generated files #
 ######################
 .DS_Store
@@ -13,6 +75,15 @@ Thumbs.db
 **/.classpath
 **/.project
 **/.settings/
+<<<<<<< HEAD
+=======
+.project
+.settings/
+
+#intelliJ IDEA project files
+.idea/
+*.iml
+>>>>>>> refs/remotes/apache/master
 
 # maven target files
 target/
@@ -26,6 +97,11 @@ target/
 auto-save-list
 tramp
 .\#*
+<<<<<<< HEAD
 
 
 _site
+=======
+*.swp
+**/dependency-reduced-pom.xml
+>>>>>>> refs/remotes/apache/master
